@@ -1,0 +1,1 @@
+export const FILTER_POKEMONS = "FILTER_POKEMONS";
