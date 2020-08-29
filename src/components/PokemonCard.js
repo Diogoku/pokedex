@@ -35,7 +35,7 @@ function PokemonCard({ name, url }) {
   return (
     <Link
       to={{
-        pathname: `/pokemon/detail/${pokemonId}`,
+        pathname: `/pokedex/pokemon/detail/${pokemonId}`,
         state: { pokemonUrl: url, pokemonImage: pokemonImage },
       }}
       className="link__decoration"
