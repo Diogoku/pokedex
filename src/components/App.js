@@ -22,11 +22,11 @@ function App() {
       <Router>
         <Header />
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/pokedex/">
             <FilterForm />
             <PokemonsList />
           </Route>
-          <Route path="/pokemon/detail/:pokemonId">
+          <Route path="/pokedex/pokemon/detail/:pokemonId">
             <PokemonDetail />
           </Route>
         </Switch>
